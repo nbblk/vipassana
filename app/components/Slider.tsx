@@ -61,7 +61,7 @@ export default function MovingSlider({ videos }: MovingSliderProps) {
   return (
     <div className="flex flex-col items-center justify-center overflow-hidden w-screen mx-auto">
       <div
-        className="flex overflow-x-hidden scroll-smooth w-full"
+        className="flex gap-4 overflow-x-hidden scroll-smooth w-full"
         ref={sliderRef}
       >
         {videos.map(({ id: { videoId }, snippet: { title, thumbnails } }) => (
