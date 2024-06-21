@@ -12,7 +12,7 @@ export default function MainTemplate({ videos }: { videos: Video[] }) {
 }
   return (
     <main>
-      <section className="flex min-h-screen flex-col items-center justify-between p-0 md:p-24">
+      <section className="flex min-h-screen flex-col items-center justify-between p-4 md:p-24">
         <div className="flex flex-col gap-8">
           <h1 className="text-7xl md:text-9xl">learn vipassana</h1>
           <p className="w-full">
@@ -50,7 +50,7 @@ export default function MainTemplate({ videos }: { videos: Video[] }) {
           </p>
         </div>
         <button
-          className="p-4 border border-white hover:bg-white hover:text-black"
+          className="my-8 md:m-0 p-4 border border-white hover:bg-white hover:text-black"
           onClick={scrollToSection}
         >
           let&apos;s practice ↓
